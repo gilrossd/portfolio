@@ -24,3 +24,4 @@ World Layoffs Data Cleaning & Analysis
 - ROW_NUMBER()
 - Aggregations
 - Data Standardization
+- Substring
