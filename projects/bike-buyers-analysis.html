@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bike Buyers Customer Analysis Project by Gilross Dagoy - Excel Data Analytics Portfolio">
+    <title>Bike Buyers Customer Analysis | Gilross Dagoy</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+<nav>
+    <div class="nav-container">
+        <a href="../index.html" class="logo">
+            Gilross Dagoy
+        </a>
+        <div class="nav-links">
+            <a href="../index.html#about">About</a>
+            <a href="../index.html#skills">Skills</a>
+            <a href="../index.html#projects">Projects</a>
+            <a href="../index.html#experience">Experience</a>
+            <a href="../index.html#contact">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<!-- =========================
+     PROJECT HEADER
+========================= -->
+<header class="hero">
+    <div class="hero-content">
+        <p class="eyebrow">EXCEL DATA ANALYSIS PROJECT</p>
+        <h1>Bike Buyers <span>Customer Analysis</span></h1>
+        <p class="hero-subtitle">Excel &nbsp;•&nbsp; PivotTables &nbsp;•&nbsp; Nested IFS &nbsp;•&nbsp; Interactive Dashboard</p>
+        <p class="hero-description">
+            An exploratory analysis analyzing customer demographic factors—including income levels, age brackets, and commute distances—to evaluate purchasing behavior and optimize targeted marketing strategies for bike sales.
+        </p>
+        <div class="hero-buttons">
+            <a href="../index.html#projects" class="btn secondary-btn">← Back to Projects</a>
+            <a href="https://github.com/gilrossd/portfolio" target="_blank" class="btn primary-btn">View on GitHub</a>
+        </div>
+    </div>
+</header>
+
+<!-- =========================
+     PROJECT DETAILS
+========================= -->
+<section id="project-details">
+    <div class="container">
+
+        <!-- Overview Section -->
+        <div class="detail-block">
+            <p class="section-label">OVERVIEW</p>
+            <h2>Project Background</h2>
+            <p>
+                Understanding customer behavior is essential for optimizing product offerings and targeting advertising effectively. This project examines a dataset of 1,000 potential customers to analyze how demographic variables such as age, income level, and daily commute distance influence the decision to purchase a bicycle.
+            </p>
+        </div>
+
+        <!-- Technical Process Section -->
+        <div class="detail-block">
+            <p class="section-label">WORKFLOW & METHODOLOGY</p>
+            <h2>Data Cleaning & Transformation</h2>
+            <ul>
+                <li><strong>Data Standardisation & Cleaning:</strong> Processed raw demographic records by eliminating duplicate rows, standardizing categorical text fields (e.g., converting "M" and "S" to "Married" and "Single", "F" and "M" to "Female" and "Male"), and handling missing entries.</li>
+                <li><strong>Feature Engineering:</strong> Applied custom <code>IFS</code> / <code>NESTED IFS</code> formulas to create dynamic age brackets (<em>Adolescent</em>, <em>Middle Age</em>, and <em>Old</em>) to enable granular cohort analysis.</li>
+                <li><strong>Pivot Table Aggregations:</strong> Structured PivotTables to summarize average income per purchase outcome, commute distance distribution, and purchase conversion rates across distinct age groups.</li>
+                <li><strong>Dynamic Dashboard Design:</strong> Built an interactive Excel dashboard complete with charts and interactive Slicers (filtered by Region, Education Level, and Marital Status) for dynamic insights exploration.</li>
+            </ul>
+        </div>
+
+        <!-- Key Findings Section -->
+        <div class="detail-block">
+            <p class="section-label">INSIGHTS</p>
+            <h2>Key Analytical Findings</h2>
+            <div class="about-grid">
+                <div>
+                    <h3>1. Income Level vs. Purchase Decision</h3>
+                    <p>
+                        Higher average income directly correlates with bike purchases across both male and female demographics. Customers who purchased a bike had an average income significantly higher than non-buyers.
+                    </p>
+                </div>
+                <div>
+                    <h3>2. Commute Distance Impact</h3>
+                    <p>
+                        Customers residing within 0–1 miles of their workplace demonstrated the highest purchase conversion rate, whereas motivation dropped significantly for commutes exceeding 5 miles.
+                    </p>
+                </div>
+                <div>
+                    <h3>3. Age Demographic Trends</h3>
+                    <p>
+                        The <strong>Middle Age</strong> demographic (31–54 years old) represents the largest proportion of bike buyers, making them the primary target audience for sales campaigns.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Visual / Deliverables Placeholder -->
+        <div class="detail-block">
+            <p class="section-label">DASHBOARD</p>
+            <h2>Interactive Excel Dashboard</h2>
+            <p>
+                The final interactive dashboard allows users to slice data by geographic region, marital status, and educational background to explore custom customer segments dynamically.
+            </p>
+            <!-- You can replace this image placeholder with an actual screenshot of your Excel dashboard -->
+            <div class="dashboard-preview-placeholder" style="background: #f4f4f5; padding: 40px; border-radius: 8px; text-align: center; border: 1px dashed #ccc; margin-top: 20px;">
+                <p><em>[ Excel Dashboard Preview / Image Attachment ]</em></p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- =========================
+     FOOTER
+========================= -->
+<footer>
+    <p>© 2026 Gilross Dagoy</p>
+    <p>Built with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
