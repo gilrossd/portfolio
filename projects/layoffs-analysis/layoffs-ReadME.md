@@ -1,9 +1,7 @@
-Project #2 — World Layoffs Project
-• A Guided project from Alex the Data Analyst youtube channel.
+Project #2 — World Layoffs Data Cleaning & Analysis
 
-World Layoffs Data Cleaning & Analysis
-
-• Cleaned and analyzed a layoffs dataset using MySQL.
+A MySQL project focused on cleaning, standardizing, 
+and analyzing a real-world layoffs dataset.
 
 • What I did:
 - Created a staging table to preserve the raw data
@@ -13,9 +11,8 @@ World Layoffs Data Cleaning & Analysis
 - Cleaned industry values
 - Handled missing values
 - Standardized dates
-- Analyzed layoffs by company, industry, country, and year
-- Used CTEs and window functions
-
+- Used CTEs, subqueries and window functions to analyze layoffs by company, industry, country, and year
+  
 • Skills demonstrated:
 - MySQL
 - Data Cleaning
